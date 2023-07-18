@@ -66,7 +66,7 @@ Background.Size = UDim2.new(0, 450, 0, 268)
 
 LeftPanel.Name = "LeftPanel"
 LeftPanel.Parent = Background
-LeftPanel.BackgroundColor3 = Color3.fromRGB(53, 52, 55)
+LeftPanel.BackgroundColor3 = Color3.fromRGB(41, 0, 122)
 LeftPanel.BorderSizePixel = 0
 LeftPanel.Position = UDim2.new(0, 0, 0, 19)
 LeftPanel.Size = UDim2.new(0, 131, 0, 249)
@@ -94,7 +94,7 @@ RemoteTemplate.Size = UDim2.new(0, 117, 0, 27)
 
 ColorBar.Name = "ColorBar"
 ColorBar.Parent = RemoteTemplate
-ColorBar.BackgroundColor3 = Color3.fromRGB(255, 242, 0)
+ColorBar.BackgroundColor3 = Color3.fromRGB(149, 0, 255)
 ColorBar.BorderSizePixel = 0
 ColorBar.Position = UDim2.new(0, 0, 0, 1)
 ColorBar.Size = UDim2.new(0, 7, 0, 18)
@@ -129,7 +129,7 @@ Button.TextSize = 14
 
 RightPanel.Name = "RightPanel"
 RightPanel.Parent = Background
-RightPanel.BackgroundColor3 = Color3.fromRGB(37, 36, 38)
+RightPanel.BackgroundColor3 = Color3.fromRGB(22, 0, 43)
 RightPanel.BorderSizePixel = 0
 RightPanel.Position = UDim2.new(0, 131, 0, 19)
 RightPanel.Size = UDim2.new(0, 319, 0, 249)
@@ -199,7 +199,7 @@ Button_2.TextSize = 14
 
 TopBar.Name = "TopBar"
 TopBar.Parent = Background
-TopBar.BackgroundColor3 = Color3.fromRGB(37, 35, 38)
+TopBar.BackgroundColor3 = Color3.fromRGB(27, 0, 41)
 TopBar.BorderSizePixel = 0
 TopBar.Size = UDim2.new(0, 450, 0, 19)
 
@@ -272,7 +272,7 @@ ImageLabel_3.Image = "http://www.roblox.com/asset/?id=5597105827"
 
 ToolTip.Name = "ToolTip"
 ToolTip.Parent = SimpleSpy2
-ToolTip.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ToolTip.BackgroundColor3 = Color3.fromRGB(10, 1, 26)
 ToolTip.BackgroundTransparency = 0.1
 ToolTip.BorderColor3 = Color3.new(1, 1, 1)
 ToolTip.Size = UDim2.new(0, 200, 0, 50)
