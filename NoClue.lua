@@ -1,6 +1,3 @@
---Robby Edition
---All credits to the ORIGINAL DEV's, no SKID shit here. All I did was change Fonts, and Color of GUI
-
 --[[
     SimpleSpy v2.2 SOURCE
 
@@ -69,7 +66,7 @@ Background.Size = UDim2.new(0, 450, 0, 268)
 
 LeftPanel.Name = "LeftPanel"
 LeftPanel.Parent = Background
-LeftPanel.BackgroundColor3 = Color3.fromRGB(41, 0, 122)
+LeftPanel.BackgroundColor3 = Color3.fromRGB(53, 52, 55)
 LeftPanel.BorderSizePixel = 0
 LeftPanel.Position = UDim2.new(0, 0, 0, 19)
 LeftPanel.Size = UDim2.new(0, 131, 0, 249)
@@ -77,7 +74,7 @@ LeftPanel.Size = UDim2.new(0, 131, 0, 249)
 LogList.Name = "LogList"
 LogList.Parent = LeftPanel
 LogList.Active = true
-LogList.BackgroundColor3 = Color3.new(111, 1, 1)
+LogList.BackgroundColor3 = Color3.new(1, 1, 1)
 LogList.BackgroundTransparency = 1
 LogList.BorderSizePixel = 0
 LogList.Position = UDim2.new(0, 0, 0, 9)
@@ -91,13 +88,13 @@ UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
 RemoteTemplate.Name = "RemoteTemplate"
 RemoteTemplate.Parent = LogList
-RemoteTemplate.BackgroundColor3 = Color3.new(111, 1, 1)
+RemoteTemplate.BackgroundColor3 = Color3.new(1, 1, 1)
 RemoteTemplate.BackgroundTransparency = 1
 RemoteTemplate.Size = UDim2.new(0, 117, 0, 27)
 
 ColorBar.Name = "ColorBar"
 ColorBar.Parent = RemoteTemplate
-ColorBar.BackgroundColor3 = Color3.fromRGB(149, 0, 255)
+ColorBar.BackgroundColor3 = Color3.fromRGB(255, 242, 0)
 ColorBar.BorderSizePixel = 0
 ColorBar.Position = UDim2.new(0, 0, 0, 1)
 ColorBar.Size = UDim2.new(0, 7, 0, 18)
@@ -110,7 +107,7 @@ Text.BackgroundTransparency = 1
 Text.Position = UDim2.new(0, 12, 0, 1)
 Text.Size = UDim2.new(0, 105, 0, 18)
 Text.ZIndex = 2
-Text.Font = Enum.Font.ArialBold
+Text.Font = Enum.Font.SourceSans
 Text.Text = "TEXT"
 Text.TextColor3 = Color3.new(1, 1, 1)
 Text.TextSize = 14
@@ -125,14 +122,14 @@ Button.BorderColor3 = Color3.new(1, 1, 1)
 Button.Position = UDim2.new(0, 0, 0, 1)
 Button.Size = UDim2.new(0, 117, 0, 18)
 Button.AutoButtonColor = false
-Button.Font = Enum.Font.ArialBold
+Button.Font = Enum.Font.SourceSans
 Button.Text = ""
 Button.TextColor3 = Color3.new(0, 0, 0)
 Button.TextSize = 14
 
 RightPanel.Name = "RightPanel"
 RightPanel.Parent = Background
-RightPanel.BackgroundColor3 = Color3.fromRGB(22, 0, 43)
+RightPanel.BackgroundColor3 = Color3.fromRGB(37, 36, 38)
 RightPanel.BorderSizePixel = 0
 RightPanel.Position = UDim2.new(0, 131, 0, 19)
 RightPanel.Size = UDim2.new(0, 319, 0, 249)
@@ -179,7 +176,7 @@ Text_2.BackgroundTransparency = 1
 Text_2.Position = UDim2.new(0, 19, 0, 10)
 Text_2.Size = UDim2.new(0, 69, 0, 18)
 Text_2.ZIndex = 2
-Text_2.Font = Enum.Font.ArialBold
+Text_2.Font = Enum.Font.SourceSans
 Text_2.Text = "TEXT"
 Text_2.TextColor3 = Color3.new(1, 1, 1)
 Text_2.TextSize = 14
@@ -195,14 +192,14 @@ Button_2.BorderColor3 = Color3.new(1, 1, 1)
 Button_2.Position = UDim2.new(0, 7, 0, 10)
 Button_2.Size = UDim2.new(0, 80, 0, 18)
 Button_2.AutoButtonColor = false
-Button_2.Font = Enum.Font.ArialBold
+Button_2.Font = Enum.Font.SourceSans
 Button_2.Text = ""
 Button_2.TextColor3 = Color3.new(0, 0, 0)
 Button_2.TextSize = 14
 
 TopBar.Name = "TopBar"
 TopBar.Parent = Background
-TopBar.BackgroundColor3 = Color3.fromRGB(27, 0, 41)
+TopBar.BackgroundColor3 = Color3.fromRGB(37, 35, 38)
 TopBar.BorderSizePixel = 0
 TopBar.Size = UDim2.new(0, 450, 0, 19)
 
@@ -213,7 +210,7 @@ Simple.AutoButtonColor = false
 Simple.BackgroundTransparency = 1
 Simple.Position = UDim2.new(0, 5, 0, 0)
 Simple.Size = UDim2.new(0, 57, 0, 18)
-Simple.Font = Enum.Font.ArialBold
+Simple.Font = Enum.Font.SourceSansBold
 Simple.Text = "SimpleSpy"
 Simple.TextColor3 = Color3.new(1, 1, 1)
 Simple.TextSize = 14
@@ -225,7 +222,7 @@ CloseButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
 CloseButton.BorderSizePixel = 0
 CloseButton.Position = UDim2.new(1, -19, 0, 0)
 CloseButton.Size = UDim2.new(0, 19, 0, 19)
-CloseButton.Font = Enum.Font.ArialBold
+CloseButton.Font = Enum.Font.SourceSans
 CloseButton.Text = ""
 CloseButton.TextColor3 = Color3.new(0, 0, 0)
 CloseButton.TextSize = 14
@@ -243,7 +240,7 @@ MaximizeButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
 MaximizeButton.BorderSizePixel = 0
 MaximizeButton.Position = UDim2.new(1, -38, 0, 0)
 MaximizeButton.Size = UDim2.new(0, 19, 0, 19)
-MaximizeButton.Font = Enum.Font.ArialBold
+MaximizeButton.Font = Enum.Font.SourceSans
 MaximizeButton.Text = ""
 MaximizeButton.TextColor3 = Color3.new(0, 0, 0)
 MaximizeButton.TextSize = 14
@@ -261,7 +258,7 @@ MinimizeButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
 MinimizeButton.BorderSizePixel = 0
 MinimizeButton.Position = UDim2.new(1, -57, 0, 0)
 MinimizeButton.Size = UDim2.new(0, 19, 0, 19)
-MinimizeButton.Font = Enum.Font.ArialBold
+MinimizeButton.Font = Enum.Font.SourceSans
 MinimizeButton.Text = ""
 MinimizeButton.TextColor3 = Color3.new(0, 0, 0)
 MinimizeButton.TextSize = 14
@@ -275,7 +272,7 @@ ImageLabel_3.Image = "http://www.roblox.com/asset/?id=5597105827"
 
 ToolTip.Name = "ToolTip"
 ToolTip.Parent = SimpleSpy2
-ToolTip.BackgroundColor3 = Color3.fromRGB(10, 1, 26)
+ToolTip.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
 ToolTip.BackgroundTransparency = 0.1
 ToolTip.BorderColor3 = Color3.new(1, 1, 1)
 ToolTip.Size = UDim2.new(0, 200, 0, 50)
@@ -288,7 +285,7 @@ TextLabel.BackgroundTransparency = 1
 TextLabel.Position = UDim2.new(0, 2, 0, 2)
 TextLabel.Size = UDim2.new(0, 196, 0, 46)
 TextLabel.ZIndex = 3
-TextLabel.Font = Enum.Font.Code
+TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "This is some slightly longer text."
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 14
